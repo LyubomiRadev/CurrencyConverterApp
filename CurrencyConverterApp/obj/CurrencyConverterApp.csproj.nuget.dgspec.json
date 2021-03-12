@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SoftwareProjects\\CurrencyConverterApp\\CurrencyConverterApp.csproj": {}
+  },
+  "projects": {
+    "D:\\SoftwareProjects\\CurrencyConverterApp\\CurrencyConverterApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SoftwareProjects\\CurrencyConverterApp\\CurrencyConverterApp.csproj",
+        "projectName": "CurrencyConverterApp",
+        "projectPath": "D:\\SoftwareProjects\\CurrencyConverterApp\\CurrencyConverterApp.csproj",
+        "packagesPath": "C:\\Users\\Working Profile\\.nuget\\packages\\",
+        "outputPath": "D:\\SoftwareProjects\\CurrencyConverterApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Working Profile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1603",
+            "NU1605",
+            "NU1608",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Catel.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Catel.MVVM": {
+              "target": "Package",
+              "version": "[5.12.10, )"
+            },
+            "Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.4, )"
+            },
+            "ModuleInit.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Obsolete.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "WpfAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

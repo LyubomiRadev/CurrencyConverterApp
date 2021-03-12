@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CurrencyConverterApp</name>
+    </assembly>
+    <members>
+        <member name="T:CurrencyConverterApp.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.Models.CurrencyModel.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.Models.CurrencyModel.#ctor(CurrencyConverterApp.Models.CurrencyModel)">
+            <summary>
+            Constructor With Value
+            </summary>
+        </member>
+        <member name="T:CurrencyConverterApp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CurrencyConverterApp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CurrencyConverterApp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:CurrencyConverterApp.Views.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.Views.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CurrencyConverterApp.UserControls.CurrencySelectionUserControlWindow">
+            <summary>
+            CurrencySelectionUserControlWindow
+            </summary>
+        </member>
+        <member name="M:CurrencyConverterApp.UserControls.CurrencySelectionUserControlWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ModuleInitializer">
+            <summary>
+            Used by the ModuleInit. All code inside the InitializeResourceGroups method is ran as soon as the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:ModuleInitializer.Initialize">
+            <summary>
+            Initializes the module.
+            </summary>
+        </member>
+    </members>
+</doc>
